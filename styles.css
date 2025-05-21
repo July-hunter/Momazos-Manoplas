@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Momazos Manoplas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Momazos Manoplas</h1>
+
+    <input type="file" id="imageInput" accept="image/*" />
+    
+    <input type="text" id="topText" placeholder="Texto superior" />
+    <input type="text" id="bottomText" placeholder="Texto inferior" />
+
+    <button id="generateBtn">Generar Meme</button>
+    <button id="downloadBtn">Descargar</button>
+
+    <div class="meme-container">
+      <canvas id="memeCanvas"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
